@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Coding Projects\\Personal\\Portfolio_Website\\wwwroot\\cursor.js",
+      "PackagePath": "staticwebassets\\cursor.js"
+    },
+    {
+      "Id": "F:\\Coding Projects\\Personal\\Portfolio_Website\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\Coding Projects\\Personal\\Portfolio_Website\\wwwroot\\resume.pdf",
+      "PackagePath": "staticwebassets\\resume.pdf"
+    },
+    {
+      "Id": "F:\\Coding Projects\\Personal\\Portfolio_Website\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Portfolio_Website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Portfolio_Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Portfolio_Website.props",
+      "PackagePath": "build\\Portfolio_Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Portfolio_Website.props",
+      "PackagePath": "buildMultiTargeting\\Portfolio_Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Portfolio_Website.props",
+      "PackagePath": "buildTransitive\\Portfolio_Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
