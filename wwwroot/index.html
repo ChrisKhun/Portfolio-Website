@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chris Khun | Portfolio</title>
-    <link rel="stylesheet" href="styles.css?v=1" />
+    <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 
 <body>
@@ -14,8 +14,8 @@
         </header>
 
         <div class="shell">
-            <!-- STATIC MENU (attached) -->
-            <nav class="menubar" id="menu" aria-label="Primary navigation">
+
+            <nav class="menubar" id="menu">
                 <a class="mitem tablink" href="#home">Home</a>
                 <a class="mitem tablink" href="#about">About</a>
                 <a class="mitem tablink" href="#skills">Skills</a>
@@ -24,32 +24,33 @@
                 <a class="mitem tablink" href="#contact">Contact</a>
             </nav>
 
-            <!-- SCROLL INSIDE THIS BOX -->
-            <main class="phone scrollArea" id="scrollArea" aria-label="Content">
+            <main class="phone scrollArea" id="scrollArea">
                 <div class="content">
-                    <!-- HOME -->
+
+                    <!-- HOME (NEW CLEAN HERO) -->
                     <section class="sectionCard heroCard" id="home">
-                        <div class="heroInner">
-                            <div class="avatar-ring" aria-hidden="true"></div>
+                        <div class="heroInner heroClean">
+                            <div class="heroKicker">Columbus, GA • Software Systems</div>
 
-                            <h1 class="name" aria-label="Chris Khun">
-                                <span class="wave" aria-hidden="true">
-                                    <span style="--i:0">C</span><span style="--i:1">h</span><span style="--i:2">r</span><span style="--i:3">i</span><span style="--i:4">s</span>
-                                    <span class="sp" style="--i:5">&nbsp;</span>
-                                    <span style="--i:6">K</span><span style="--i:7">h</span><span style="--i:8">u</span><span style="--i:9">n</span>
-                                </span>
-                            </h1>
+                            <h1 class="heroName">Christopher Khun</h1>
 
-                            <p class="subtitle">Computer Science • Software Systems • AI &amp; Cloud</p>
+                            <p class="heroSubtitle">
+                                Computer Science • AI / NLP • .NET & Automation • Cloud
+                            </p>
 
-                            <div class="actions">
-                                <a class="btn primary tablink" href="#projects">View Projects</a>
-                                <a class="btn ghost tablink" href="#contact">Contact</a>
+                            <div class="heroBadges" aria-label="Focus areas">
+                                <span>AI</span>
+                                <span>NLP</span>
+                                <span>.NET</span>
+                                <span>APIs</span>
+                                <span>Automation</span>
                             </div>
 
-                            <div class="hint">
-                                <span class="dot" aria-hidden="true"></span>
-                                <span>Use the menu to jump between sections.</span>
+                            <div class="heroLine" aria-hidden="true"></div>
+
+                            <div class="heroCTA">
+                                <a class="btn primary tablink" href="#projects">Projects</a>
+                                <a class="btn ghost tablink" href="#contact">Contact</a>
                             </div>
                         </div>
                     </section>
@@ -58,10 +59,15 @@
                     <section class="sectionCard" id="about">
                         <div class="sectionHead">
                             <h2>About</h2>
-                            <p>Write a clean, 3–6 sentence summary.</p>
                         </div>
+
                         <div class="card">
-                            <p class="placeholder">(Put your about text here — education, interests, what you’re building, etc.)</p>
+                            <p>
+                                I’m a Computer Science (Software Systems) student at Columbus State University with an anticipated graduation of Fall 2026.
+                                I focus on building practical AI systems, automation tools, and clean full-stack applications.
+                                My work centers around NLP, API integrations, and scalable software design.
+                                I enjoy turning real-world requirements into structured, maintainable, production-ready systems.
+                            </p>
                         </div>
                     </section>
 
@@ -69,25 +75,21 @@
                     <section class="sectionCard" id="skills">
                         <div class="sectionHead">
                             <h2>Skills</h2>
-                            <p>Keep it scannable: languages, tools, and concepts.</p>
                         </div>
 
                         <div class="grid two">
                             <div class="card">
                                 <h3>Languages</h3>
-                                <p class="placeholder">(Add your languages list.)</p>
+                                <p class="placeholder">
+                                    Java, Python, C#, C, C++, Kotlin, Ruby, Prolog, VB, HTML, CSS, SQLite
+                                </p>
                             </div>
+
                             <div class="card">
-                                <h3>Frameworks &amp; Tools</h3>
-                                <p class="placeholder">(Add frameworks, tooling, cloud, etc.)</p>
-                            </div>
-                            <div class="card">
-                                <h3>Concepts</h3>
-                                <p class="placeholder">(DSA, OOP, APIs, databases, cloud, etc.)</p>
-                            </div>
-                            <div class="card">
-                                <h3>Certifications</h3>
-                                <p class="placeholder">(Optional.)</p>
+                                <h3>Technologies & Tools</h3>
+                                <p class="placeholder">
+                                    Git/GitHub, Visual Studio, Windows, Linux, .NET, PyTorch, ANTLR
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -96,60 +98,52 @@
                     <section class="sectionCard" id="projects">
                         <div class="sectionHead">
                             <h2>Projects</h2>
-                            <p>Add your title, stack, and demo links.</p>
                         </div>
 
                         <div class="grid two">
                             <article class="card project">
                                 <div class="projectTop">
-                                    <h3>Project Title 1</h3>
-                                    <span class="tag">Demo</span>
+                                    <h3>Transcriptive AI</h3>
+                                    <span class="tag">AI / NLP</span>
                                 </div>
-                                <p class="placeholder">(Short description: what it does, tech stack, impact.)</p>
-                                <div class="projectActions">
-                                    <a class="btn small primary" href="#" aria-disabled="true">Live Demo</a>
-                                    <a class="btn small" href="#" aria-disabled="true">GitHub</a>
-                                    <a class="btn small ghost" href="#" aria-disabled="true">Details</a>
-                                </div>
+                                <p class="placeholder">
+                                    Full-stack medical transcription enhancement tool built with Python and PyTorch.
+                                    Includes specialty classification, entity extraction, and structured note generation.
+                                </p>
+                                <a class="btn small" href="https://github.com/ChrisKhun/Software-Engineering-Transcriptive-AI" target="_blank" rel="noopener">Code</a>
                             </article>
 
                             <article class="card project">
                                 <div class="projectTop">
-                                    <h3>Project Title 2</h3>
-                                    <span class="tag">API</span>
+                                    <h3>LinkedIn WebScraper</h3>
+                                    <span class="tag">.NET / API</span>
                                 </div>
-                                <p class="placeholder">(Short description.)</p>
-                                <div class="projectActions">
-                                    <a class="btn small primary" href="#" aria-disabled="true">Live Demo</a>
-                                    <a class="btn small" href="#" aria-disabled="true">GitHub</a>
-                                    <a class="btn small ghost" href="#" aria-disabled="true">Details</a>
-                                </div>
+                                <p class="placeholder">
+                                    C# application integrating with the Unipile API to search LinkedIn and export structured CSV data.
+                                </p>
+                                <a class="btn small" href="https://github.com/ChrisKhun/TestRepo-Linkedin" target="_blank" rel="noopener">Code</a>
                             </article>
 
                             <article class="card project">
                                 <div class="projectTop">
-                                    <h3>Project Title 3</h3>
-                                    <span class="tag">Mobile</span>
+                                    <h3>SimpleEnglish</h3>
+                                    <span class="tag">Compilers</span>
                                 </div>
-                                <p class="placeholder">(Short description.)</p>
-                                <div class="projectActions">
-                                    <a class="btn small primary" href="#" aria-disabled="true">Live Demo</a>
-                                    <a class="btn small" href="#" aria-disabled="true">GitHub</a>
-                                    <a class="btn small ghost" href="#" aria-disabled="true">Details</a>
-                                </div>
+                                <p class="placeholder">
+                                    Custom programming language built with ANTLR supporting variables, loops, and functions.
+                                </p>
+                                <a class="btn small" href="https://github.com/ChrisKhun/Simple-English" target="_blank" rel="noopener">Code</a>
                             </article>
 
                             <article class="card project">
                                 <div class="projectTop">
-                                    <h3>Project Title 4</h3>
-                                    <span class="tag">Algo</span>
+                                    <h3>Offbrand Backrooms</h3>
+                                    <span class="tag">Game Dev</span>
                                 </div>
-                                <p class="placeholder">(Short description.)</p>
-                                <div class="projectActions">
-                                    <a class="btn small primary" href="#" aria-disabled="true">Live Demo</a>
-                                    <a class="btn small" href="#" aria-disabled="true">GitHub</a>
-                                    <a class="btn small ghost" href="#" aria-disabled="true">Details</a>
-                                </div>
+                                <p class="placeholder">
+                                    C# modular survival-horror prototype implementing scalable architecture patterns.
+                                </p>
+                                <a class="btn small" href="https://github.com/ChrisKhun/OOP-OffbrandBackrooms" target="_blank" rel="noopener">Code</a>
                             </article>
                         </div>
                     </section>
@@ -158,22 +152,19 @@
                     <section class="sectionCard" id="work">
                         <div class="sectionHead">
                             <h2>Work Experience</h2>
-                            <p>Add roles, freelance work, internships, etc.</p>
                         </div>
 
-                        <div class="stack">
-                            <div class="card">
-                                <div class="row">
-                                    <h3>Role Title</h3>
-                                    <span class="muted">Month YYYY – Month YYYY</span>
-                                </div>
-                                <p class="placeholder">(Company • Location)</p>
-                                <ul class="bullets">
-                                    <li class="placeholder">(Impact bullet.)</li>
-                                    <li class="placeholder">(Impact bullet.)</li>
-                                    <li class="placeholder">(Impact bullet.)</li>
-                                </ul>
+                        <div class="card">
+                            <div class="row">
+                                <h3>Software Developer Intern (Consulting)</h3>
+                                <span class="muted">Dec 2025 – Present</span>
                             </div>
+                            <ul class="bullets">
+                                <li>Collaborate on paid client software projects including LinkedIn automation tools.</li>
+                                <li>Develop workflow automation and structured data extraction systems.</li>
+                                <li>Debug production systems and improve reliability based on client feedback.</li>
+                                <li>Apply clean architecture principles to real-world codebases.</li>
+                            </ul>
                         </div>
                     </section>
 
@@ -181,80 +172,84 @@
                     <section class="sectionCard" id="contact">
                         <div class="sectionHead">
                             <h2>Contact</h2>
-                            <p>Send an email or use the links.</p>
                         </div>
 
                         <div class="grid two contactGrid">
-                            <div class="card">
+                            <!-- LEFT: Email Form -->
+                            <div class="card contactCard">
                                 <h3>Email</h3>
 
                                 <form class="contactForm" id="contactForm">
                                     <label class="field">
                                         <span class="labelText">Your Name</span>
-                                        <input class="input" id="fromName" type="text" placeholder="Your name" autocomplete="name" />
+                                        <input class="input" id="fromName" type="text" placeholder="Your name">
                                     </label>
 
                                     <label class="field">
                                         <span class="labelText">Your Email</span>
-                                        <input class="input" id="fromEmail" type="email" placeholder="name@example.com" autocomplete="email" />
+                                        <input class="input" id="fromEmail" type="email" placeholder="name@example.com">
                                     </label>
 
                                     <label class="field">
                                         <span class="labelText">Subject</span>
-                                        <input class="input" id="emailSubject" type="text" placeholder="Quick question about…" />
+                                        <input class="input" id="emailSubject" type="text" placeholder="Subject">
                                     </label>
 
                                     <label class="field">
                                         <span class="labelText">Message</span>
-                                        <textarea class="textarea" id="emailMessage" rows="6" placeholder="Write your message here…"></textarea>
+                                        <textarea class="textarea" id="emailMessage" rows="6" placeholder="Write your message..."></textarea>
                                     </label>
 
                                     <div class="centerRow">
-                                        <a class="btn small primary" id="emailMeBtn" href="#">Email Me</a>
+                                        <a class="btn small primary" id="emailMeBtn" href="#">Send Email</a>
                                     </div>
 
-                                    <p class="tinyNote">
-                                        This opens your default email app.
-                                    </p>
+                                    <p class="tinyNote">This opens your default email app.</p>
                                 </form>
                             </div>
 
-                            <div class="card">
-                                <h3>Links</h3>
-                                <p class="placeholder">(GitHub / LinkedIn / Resume)</p>
-                                <div class="projectActions centerLinks">
-                                    <a class="btn small" href="https://github.com/ChrisKhun" target="_blank" rel="noopener">GitHub</a>
-                                    <a class="btn small" href="https://www.linkedin.com/in/chris-khun/" target="_blank" rel="noopener">LinkedIn</a>
-                                    <a class="btn small ghost" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+                            <!-- RIGHT -->
+                            <div class="contactRightColumn">
+                                <div class="card linksCompact">
+                                    <h3>Links</h3>
+                                    <div class="linksRow">
+                                        <a class="btn small" href="https://github.com/ChrisKhun" target="_blank" rel="noopener">GitHub</a>
+                                        <a class="btn small" href="https://linkedin.com/in/chris-khun" target="_blank" rel="noopener">LinkedIn</a>
+                                        <a class="btn small ghost" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+                                    </div>
+                                </div>
+
+                                <div class="card availabilityCard">
+                                    <h3>Availability</h3>
+                                    <p class="availabilityText">
+                                        Open to internships and freelance software opportunities.
+                                        Based in Columbus, GA.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="footerSpace" aria-hidden="true"></div>
-
                         <footer class="siteFooter">
                             <div class="footerInner">
-                                <div class="footerLeft">Christopher Khun &#8482; 2026</div>
-                                <div class="footerRight">Built with HTML • CSS • JS</div>
+                                <div class="footerLeft">Christopher Khun © 2026</div>
                             </div>
                         </footer>
                     </section>
+
                 </div>
             </main>
         </div>
     </div>
 
     <script>
-        // ===== Menu scrolling + active state (stable) =====
+        // Menu smooth scrolling inside scrollArea + active highlight
         const scrollArea = document.getElementById("scrollArea");
         const links = Array.from(document.querySelectorAll(".tablink"));
         const sections = Array.from(document.querySelectorAll(".sectionCard"));
 
         function setActive(hash) {
             links.forEach(a => a.classList.remove("active"));
-            links
-                .filter(a => a.getAttribute("href") === hash)
-                .forEach(a => a.classList.add("active"));
+            links.filter(a => a.getAttribute("href") === hash).forEach(a => a.classList.add("active"));
         }
 
         function scrollToHash(hash, behavior = "smooth") {
@@ -294,40 +289,31 @@
 
         scrollArea.addEventListener("scroll", activeFromScroll);
 
-        // Init
-        if (location.hash) {
-            scrollToHash(location.hash, "auto");
-        } else {
-            setActive("#home");
-        }
+        if (location.hash) scrollToHash(location.hash, "auto");
+        else setActive("#home");
         activeFromScroll();
 
-        // ===== Contact: build mailto link =====
-        const emailBtn = document.getElementById("emailMeBtn");
-        emailBtn.addEventListener("click", (e) => {
+        // Email (mailto builder)
+        document.getElementById("emailMeBtn").addEventListener("click", function (e) {
             e.preventDefault();
 
-            const name = (document.getElementById("fromName").value || "").trim();
-            const fromEmail = (document.getElementById("fromEmail").value || "").trim();
-            const subject = (document.getElementById("emailSubject").value || "").trim();
-            const msg = (document.getElementById("emailMessage").value || "").trim();
+            const name = document.getElementById("fromName").value || "";
+            const email = document.getElementById("fromEmail").value || "";
+            const subject = document.getElementById("emailSubject").value || "Portfolio Contact";
+            const message = document.getElementById("emailMessage").value || "";
 
-            // CHANGE THIS to your real email
-            const to = "your@email.com";
+            const body = encodeURIComponent(
+                `Name: ${name}
+Email: ${email}
 
-            const lines = [];
-            if (name) lines.push(`Name: ${name}`);
-            if (fromEmail) lines.push(`Email: ${fromEmail}`);
-            if (lines.length) lines.push("");
-            if (msg) lines.push(msg);
+${message}`
+            );
 
-            const body = encodeURIComponent(lines.join("\n"));
-            const subj = encodeURIComponent(subject || "Portfolio Contact");
-
-            window.location.href = `mailto:${to}?subject=${subj}&body=${body}`;
+            window.location.href =
+                `mailto:khunchristopherkhun@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
         });
     </script>
 
-    <script src="cursor.js?v=1" defer></script>
+    <script src="cursor.js?v=5" defer></script>
 </body>
 </html>
