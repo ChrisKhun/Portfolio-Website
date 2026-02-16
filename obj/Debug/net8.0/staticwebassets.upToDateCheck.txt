@@ -1,4 +1,0 @@
-wwwroot\cursor.js
-wwwroot\resume.pdf
-wwwroot\index.html
-wwwroot\styles.css
