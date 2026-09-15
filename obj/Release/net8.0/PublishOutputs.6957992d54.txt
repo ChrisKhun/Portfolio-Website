@@ -1,0 +1,11 @@
+C:\inetpub\portfolio\Portfolio_Website.exe
+C:\inetpub\portfolio\appsettings.Development.json
+C:\inetpub\portfolio\appsettings.json
+C:\inetpub\portfolio\Portfolio_Website.dll
+C:\inetpub\portfolio\Portfolio_Website.deps.json
+C:\inetpub\portfolio\Portfolio_Website.runtimeconfig.json
+C:\inetpub\portfolio\Portfolio_Website.pdb
+C:\inetpub\portfolio\Microsoft.OpenApi.dll
+C:\inetpub\portfolio\Swashbuckle.AspNetCore.Swagger.dll
+C:\inetpub\portfolio\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\inetpub\portfolio\Swashbuckle.AspNetCore.SwaggerUI.dll

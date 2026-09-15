@@ -46,11 +46,6 @@ a {
         color: inherit;
     }
 
-/* Hide native cursor everywhere */
-html, body, a, button, .btn, .mitem, * {
-    cursor: none !important;
-}
-
 .app {
     min-height: 100%;
     display: grid;
@@ -531,22 +526,3 @@ html, body, a, button, .btn, .mitem, * {
     }
 }
 
-/* Custom cursor */
-.custom-cursor {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999;
-    background: rgba(200,200,200,0.25);
-    border: 1px solid rgba(255,255,255,0.4);
-    transform: translate(-50%,-50%);
-    transition: width .18s ease, height .18s ease, background .18s ease;
-}
-
-    .custom-cursor.hover {
-        width: 40px;
-        height: 40px;
-        background: rgba(200,200,200,0.15);
-    }
